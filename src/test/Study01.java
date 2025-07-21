@@ -8,10 +8,7 @@ public class Study01 {
 		
 		//1부터 100까지 3의 배수와 5의 배수만 출력
 		for (int i=1; i <= value; i++ ) {
-			if (i % 3 == 0) {
-				System.out.println(i);
-			}
-			else if (i % 5 == 0) {
+			if (i % 3 == 0 || i % 5 == 0) {
 				System.out.println(i);
 			}
 		}

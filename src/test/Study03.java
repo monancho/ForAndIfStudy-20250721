@@ -7,8 +7,9 @@ public class Study03 {
 		
 		int min = 1; // 1 ~ 100, 1의 값을 변경하기 위한 변수
 		int max = 100; // 1 ~ 100, 100의 값을 변경하기 위한 변수 
-		int sum = 0;
-				
+		int sum = 0; // 홀수 합
+		
+		//1부터 100까지 홀수 합 출력
 		for (int i = min; i<=max; i++) {
 			if (i % 2 != 0) {
 //				System.out.println(i);
