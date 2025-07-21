@@ -11,13 +11,13 @@ public class Study04 {
 		
 		
 		// 1부터 100까지 짝수와 홀수 개수 세기
-		for (int i = 0;i <= value; i++) {
+		for (int i = 1;i <= value; i++) {
 			if (i % 2 == 0) {
-				sumA += i;
+				sumA ++;
 			}
 			
 			else {
-				sumB += i;
+				sumB ++;
 			}
 			
 		}
